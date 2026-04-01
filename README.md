@@ -1,8 +1,4 @@
 # DriveBase_LimitChecker
-
-
-
-
   
     settings(straight_speed, straight_acceleration, turn_rate, turn_acceleration)  
         straight_speed (Number, mm/s)・・・直進のスピード  
@@ -16,18 +12,15 @@
 
 ロボットのスピードの上限は、以下のような要素で変わります。
 
-タイヤの直径
-タイヤ同士の距離（axle_track）
-ギアの組み方
-
-そのため、ロボットごとに適切な値を探すのは大変です。
+タイヤの直径  
+タイヤ同士の距離（axle_track）  
+ギアの組み方など...  
 
 このプログラムを使えば、
-DriveBase に設定した「タイヤ直径」と「タイヤ間距離」をもとに、
+DriveBase に設定した「タイヤ直径」と「タイヤ間距離」をもとに、  
 settings() に指定できる上限値の目安を自動で測定できます。
 
-※モーターの種類は Pybricks が自動で認識するため、
-特に設定する必要はありません。
+※モーターの種類は Pybricks が自動で認識するため、特に設定する必要はありません。
 
 
 ## 使い方
