@@ -1,4 +1,4 @@
-# DriveBase_LimitCheck
+# DriveBase_LimitChecker
 
 ## Pybricks　DriveBase.settingsの引数上限値を測定するプログラムです
 
